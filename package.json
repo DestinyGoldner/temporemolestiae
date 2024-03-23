@@ -1,0 +1,22 @@
+{
+  "name": "temporemolestiae",
+  "workspaces": [
+    "./packages/common",
+    "./packages/core",
+    "./packages/!(demo|core|common)/**",
+    "./packages/demo"
+  ],
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
+    "typescript": "^4.5.5",
+    "wsrun": "^5.2.4"
+  },
+  "author": "GuadalupeJohnston",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DestinyGoldner/temporemolestiae.git"
+  },
+  "homepage": "https://github.com/DestinyGoldner/temporemolestiae.git",
+  "version": "1.0.0"
+}
